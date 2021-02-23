@@ -1,0 +1,13 @@
+$color-black: black;
+
+
+@mixin fontBold {
+    font-weight: bold;
+}
+
+@mixin footer {
+    color:  rgba(156, 160, 172, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
