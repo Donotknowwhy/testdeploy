@@ -1,0 +1,122 @@
+main {
+  background-color: #111827;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+main .section-footer {
+  margin-top: 70px;
+}
+
+main section .section-header-p__title {
+  font-weight: bold;
+  font-size: 56px;
+  font-style: normal;
+}
+
+main section .section-header-p__des {
+  font-size: 18px;
+  font-style: normal;
+}
+
+main section .section-header-card {
+  width: 310px;
+  height: 373px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+main section .section-header-card__top {
+  background-color: #eef1f7;
+  height: 203px;
+  width: 310px;
+  margin-left: 0px;
+}
+
+main section .section-header-card__top-2 {
+  width: 49px !important;
+  height: 49px !important;
+  border-radius: 18px;
+  margin-top: 70px;
+}
+
+main section .section-header-card__top-3 {
+  padding-top: 45px;
+  height: 203px;
+}
+
+main section .section-header-card__top-4 {
+  width: 89px;
+  height: 127px;
+  padding-top: 39px;
+}
+
+main section .section-header-card__bot {
+  padding: 20px;
+}
+
+main section .section-header-card__bot-title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main section .section-header-card__bot-des {
+  color: black;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  main p.section-header-p__title {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  main p.section-header-p__title {
+    font-size: 26px;
+  }
+  main div.section-header-card {
+    width: 230px;
+    height: 293px;
+  }
+  main div.section-header-card__top {
+    height: 133px;
+  }
+  main p.section-header-p__des {
+    font-size: 12px;
+  }
+  main p.section-header-card__bot-title {
+    font-size: 22px;
+  }
+  main p.section-header-card__bot-des {
+    font-size: 12px;
+  }
+  main div.section-header-card__top {
+    width: 230px;
+    height: 160px;
+  }
+  main img.section-header-card__top-3 {
+    height: 160px;
+  }
+  main img.section-header-card__top-4 {
+    width: 65px;
+    height: 120px;
+  }
+}
+
+footer {
+  margin-top: 175.68px;
+}
+
+footer section .section-footer__title {
+  color: #9ca0ac;
+  font-size: 18px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=template.css.map */

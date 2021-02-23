@@ -1,0 +1,87 @@
+main {
+  width: 1300px;
+}
+
+main section .section-header-left {
+  padding-top: 251px;
+}
+
+main section .section-header-left__p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+main section .section-header-left__des {
+  color: black;
+}
+
+main section .section-header-right {
+  padding-top: 50px;
+  position: relative;
+}
+
+main section .section-header-right__card {
+  width: 285px;
+  height: 80px;
+  border-radius: 25px;
+  padding: 9px;
+  -webkit-box-shadow: 3px 3px 3px 3px #888888;
+          box-shadow: 3px 3px 3px 3px #888888;
+  border: 1px solid black;
+  margin-left: 0px;
+}
+
+main section .section-header-right__img1 {
+  border: 2.7px solid black;
+  border-radius: 50%;
+}
+
+main section .section-header-right__p-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+main section .section-header-right__p-des {
+  font-size: 12px;
+  color: #9ca0ac;
+}
+
+main section .section-header-right__img {
+  position: absolute;
+  top: 80px;
+}
+
+main section .section-header-right__img-img1 {
+  margin-top: 62px;
+}
+
+main section .section-header-right__img-imgsm {
+  padding-left: 50px;
+}
+
+main mark {
+  background-color: yellow;
+}
+
+@media only screen and (max-width: 1200px) {
+  main div.section-header-left {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  main p.section-header-p__title {
+    font-size: 36px;
+  }
+}
+
+footer {
+  margin-top: 175.68px;
+}
+
+footer section .section-footer__title {
+  color: #9ca0ac;
+  font-size: 18px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=styles.css.map */
